@@ -1,0 +1,51 @@
+html
+{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+body
+{
+	margin:0;
+}
+.meny
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0px;
+	width: 150px;
+	float: left;
+}
+
+.meny-iner
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 120px;
+}
+.meny-item:hover >.meny-linc:focus >.meny-iner,
+.meny-item:hover >.meny-iner
+{
+	display: block;
+}
+.meny> .meny-item> .meny-link,
+.meny-iner> .meny-item> .meny-link
+{
+	width: 100px;
+}
+.meny-item
+{
+	font-size: 18px;
+	position: relative;
+	margin-bottom: 5px;
+
+}
+.meny-link
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 5px;
+	background: #f96;
+	color: #fff;
+}

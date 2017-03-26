@@ -1,0 +1,96 @@
+html
+{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+body
+{
+	margin:0;
+}
+.header
+{
+	width: 100%;
+}
+.logo
+{
+	width: 30%;
+	height: 150px;
+	float: left;
+	position: relative;
+	display: inline;
+	background-color: #ddd;
+}
+.logo:before
+{
+	content: "";
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	position: absolute;
+	background: url(../images/WYiR8u6bbBI.jpg);
+}
+.meny-conteiner
+{
+	width: 70%;
+	float: right;
+	white-space: nowrap;
+	position: relative;
+}
+.meny-conteiner:before
+{
+	content: "";
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.meny
+{
+	white-space: normal;
+	display: inline-block;
+	width: 100%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0px;
+	text-align: justify;
+
+}
+.meny:after
+{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	font-size: 0;
+	height: 0;
+}
+.meny-iner
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+.meny-item:hover >.meny-iner
+{
+	display: block;
+}
+.meny-iner> .meny-item> .meny-link
+{
+	width: 150px;
+}
+.meny-item
+{
+	display: inline-block;
+	font-size: 18px;
+	position: relative;
+}
+.meny-link
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 5px;
+	background: #f96;
+	color: #fff;
+}
